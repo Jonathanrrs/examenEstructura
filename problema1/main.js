@@ -23,7 +23,7 @@ let btn = document.querySelector("#btn").addEventListener("click", () => {
                 }
             }
             if(i == suma2 && c == suma1) {
-                console.log("son amigos");
+                console.log("son amigos" + i + ", " + c);
             }
         }
     }
